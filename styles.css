@@ -1,0 +1,146 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --gradient-color:  linear-gradient(#f63c86, #3f41a6);
+    --bs-rouge:  #F44336;
+    --bg-dark-blue: #0e1525;
+    --bs-blue: #0d6efd;
+    --bs-indigo: #6610f2;
+    --bs-purple: #6f42c1;
+    --bs-pink: #d63384;
+    --bs-red: #dc3545;
+    --bs-orange: #fd7e14;
+    --bs-yellow: #ffc107;
+    --bs-green: #198754;
+    --bs-teal: #20c997;
+    --bs-cyan: #0dcaf0;
+    --bs-white: #fff;
+    --bs-gray: #6c757d;
+    --bs-gray-dark: #343a40;
+    --bs-primary: #0d6efd;
+    --bs-secondary: #6c757d;
+    --bs-success: #198754;
+    --bs-info: #0dcaf0;
+    --bs-warning: #ffc107;
+    --bs-danger: #dc3545;
+    --bs-light: #f8f9fa;
+    --bs-dark: #212529;
+}
+li{
+    list-style: none;
+}
+
+.active{
+    background-color: #F44336;
+}
+.butt{
+    background-color: var(--bs-orange);
+    border: none;
+    height: 45px;
+}
+.butte{
+    position: relative;
+    left: 500px;
+    width: 10%;
+    height: 30px;   
+}
+h2{
+    color: var(--bs-light);
+    margin-left: 30px;
+}
+h5{
+    text-align: center;
+}
+.text-voir{
+    position: relative;
+    top: 20px;
+}
+.btn-text-white{
+    background-color:  #F44336 ;
+    color: #fff;
+    border: none;
+    position: relative;
+    left: 160px;
+}
+
+
+/* partenaire */
+.secs{
+    background: #0dcaf0;
+    height: 100%;
+}
+.mere-img-secs{
+   display: flex;
+   justify-content: space-around;
+   gap: 40px;
+}
+.img-secs{
+    margin-top: 70px;
+}
+
+/* footer */
+footer{
+    margin-top: 13%;
+    background: var(--bs-teal);
+    color: var(--bs-light);
+    height: 300px;
+}
+
+.mere-icon{
+    display: flex;
+   gap: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media screen */
+@media screen and (max-width: 768px){
+    .butte{
+        position: relative;
+      left: 195px;
+      width: 30%;
+    height: 30px;
+    }
+
+    /* coach */
+   
+    
+    /* patenaire */
+    .secs{
+    background: #0dcaf0;
+    height: 100%;
+}
+.mere-img-secs{
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+   justify-content: space-around;
+   gap: 80px;
+}
+.img-secs{
+    margin-top: 70px;
+}
+footer{
+    height: 100%;
+}
+}
+
