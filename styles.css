@@ -33,6 +33,10 @@ li{
     list-style: none;
 }
 
+.mes-card{
+    display: flex;
+}
+
 .active{
     background-color: #F44336;
 }
@@ -46,6 +50,7 @@ li{
     left: 500px;
     width: 10%;
     height: 30px;   
+    margin-bottom: 20px;
 }
 h2{
     color: var(--bs-light);
@@ -64,6 +69,7 @@ h5{
     border: none;
     position: relative;
     left: 160px;
+
 }
 
 
@@ -111,15 +117,13 @@ footer{
 
 
 
-
-
 /* media screen */
 @media screen and (max-width: 768px){
     .butte{
         position: relative;
-      left: 195px;
-      width: 30%;
-    height: 30px;
+        left: 195px;
+        width: 30%;
+        height: 30px;
     }
 
     /* coach */
@@ -130,11 +134,19 @@ footer{
     background: #0dcaf0;
     height: 100%;
 }
+.mes-card{
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
 .mere-img-secs{
     display: grid;
-    grid-template-columns: 100px 100px 100px;
+    grid-template-columns: 100px 100px 100px; 
    justify-content: space-around;
-   gap: 80px;
+   align-items: center;
+   gap: 40px;
 }
 .img-secs{
     margin-top: 70px;
@@ -143,4 +155,47 @@ footer{
     height: 100%;
 }
 }
+
+
+@media screen and (max-width: 567px) {
+    .img-bak img{
+        width: 100%;
+    }
+    .img-cours img{
+        width: 120%;
+    }
+    .mere-img-secs{
+        display: grid;
+        grid-template-columns: 80px 80px;
+        margin-left: -50px;
+    }
+
+    .butte{
+             
+      margin: -45px;
+      margin-top: 10px;
+    }
+   
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
