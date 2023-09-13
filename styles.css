@@ -73,6 +73,12 @@ h5{
 }
 
 
+.mon-img{
+    width: 123%;
+    margin-left: -140px;
+}
+
+
 /* partenaire */
 .secs{
     background: #0dcaf0;
@@ -126,7 +132,10 @@ footer{
         height: 30px;
     }
 
-    /* coach */
+    .mon-img{
+        width: 141%;
+        margin-left: -139px;
+    }
    
     
     /* patenaire */
@@ -136,10 +145,10 @@ footer{
 }
 .mes-card{
     display: grid;
-    grid-template-columns: auto;
+    grid-template-columns: auto auto;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+   gap: 10px;
 }
 .mere-img-secs{
     display: grid;
@@ -164,6 +173,11 @@ footer{
     .img-cours img{
         width: 120%;
     }
+
+    .mon-img{
+        width: 139%;
+        margin-left: -139px;
+    }
     .mere-img-secs{
         display: grid;
         grid-template-columns: 80px 80px;
@@ -175,7 +189,10 @@ footer{
       margin: -45px;
       margin-top: 10px;
     }
-   
+    .mes-card{
+        display: grid;
+        grid-template-columns: auto;
+    }
     
 }
 
